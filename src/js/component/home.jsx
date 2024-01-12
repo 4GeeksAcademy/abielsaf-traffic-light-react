@@ -6,7 +6,9 @@ const Home = () => {
 	return (
 		<div className="container">
 			<div className="traffic-light-container"> 
+			
 				<div className="traffic-light-cable"></div>
+
 				<div className="traffic-light ">
 					<div
 						onClick={() => setSelectedColor("red")}  
